@@ -1,0 +1,92 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: silver;
+  padding: 20px;
+}
+
+
+
+input {
+  border: 2px solid rgb(225, 225, 225);
+  font-size: 20px;
+  height: 40px;
+  width: 500px;
+  padding-left: 5px;
+}
+
+#addButton {
+  width: 200px;
+  height: 40px;
+  border: 2px solid teal;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+}
+
+.block_text {
+  width: 100%;
+  border: 2px solid teal;
+  padding: 8px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.counter {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: rgb(115, 115, 115);
+  }
+
+  &_block {
+    /* margin-top: 50px; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    /* background-color: rgb(237, 242, 245); */
+    border-radius: 15px;
+    box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+  }
+}
+
+#counter {
+  font-size: 48px;
+  margin: 20px;
+}
+
+button {
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 15px;
+  &:hover {
+    transform: scale(1.1);
+  }
+  border: 1px solid rgb(61, 61, 61);
+  cursor: pointer;
+}
+
+#increment {
+  background-color: rgb(26, 224, 36);
+}
+#decrement {
+  background-color: rgb(243, 47, 47);
+}
